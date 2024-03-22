@@ -1,0 +1,2 @@
+# GenAI
+Aygaz GenAI Bootcamp
