@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxy Cars</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="bg-dark py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a href="#" class="text-light text-decoration-none fs-2">Galaxy Cars</a>
+      <nav class="nav">
+        <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+        <a class="nav-link text-light" href="#models">Our Models</a>
+        <a class="nav-link text-light" href="#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="d-flex justify-content-center align-items-center vh-100">
+      <h1 class="text-dark display-1 fw-bold text-center">Reach for the Stars</h1>
+      <p class="text-dark lead text-center">Experience the Galaxy of Driving</p>
+      <a href="#models" class="btn btn-primary text-center">Explore Our Cars</a>
+    </section>
+
+    <section class="models py-5" id="models">
+      <h2 class="text-center display-4 mb-4">Our Models</h2>
+
+      <article class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/suv.jpg" class="card-img-top" alt="SUV">
+            <div class="card-body">
+              <h5 class="card-title">Galaxy SUV</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Seating Capacity: 7</li>
+                <li class="list-group-item">Engine: 3.5L V6</li>
+                <li class="list-group-item">Horsepower: 290 hp</li>
+                <li class="list-group-item">Fuel Economy: 20 mpg city / 25 mpg highway</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/sedan.jpg" class="card-img-top" alt="Sedan">
+            <div class="card-body">
+              <h5 class="card-title">Galaxy Sedan</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Seating Capacity: 5</li>
+                <li class="list-group-item">Engine: 2.0L Turbocharged I4</li>
+                <li class="list-group-item">Horsepower: 252 hp</li>
+                <li class="list-group-item">Fuel Economy: 28 mpg city / 35 mpg highway</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/sports-car.jpg" class="card-img-top" alt="Sports Car">
+            <div class="card-body">
+              <h5 class="class-title">Galaxy Sports Car</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Seating Capacity: 2</li>
+                <li class="list-group-item">Engine: 3.0L Twin-Turbocharged V6</li>
+                <li class="list-group-item">Horsepower: 400 hp</li>
+                <li class="list-group-item">Fuel Economy: 18 mpg city / 25 mpg highway</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact py-5" id="contact">
+      <h2 class="text-center display-4 mb-4">Contact Us</h2>
+      <aside class="d-flex flex-wrap justify-content-center">
+        <div class="col-md-6 mb-4">
+          <h3>Headquarters</h3>
+          <address>
+            1 Galaxy Way<br>
+            Star City, CA 90210<br>
+            USA<br>
+          </address>
+          <p><a href="mailto:info@galaxycars.com">info@galaxycars.com</a></p>
+          <p><a href="tel:+18885551234">1-888-555-1234</a></p>
+        </div>
+        <div class="col-md-6 mb-4">
+          <h3>Social Media</h3>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Facebook</a></li>
+            <li class="list-group-item"><a href="#">Twitter</a></li>
+            <li class="list-group-item"><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
